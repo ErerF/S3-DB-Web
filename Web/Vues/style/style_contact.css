@@ -1,0 +1,17 @@
+.prenezC{
+	font-size:xx-large;
+	font-weight:bold;
+    text-align: center;
+    color: #8B4513;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+table{
+	width:80%;
+	margin-left:10%;
+	table-layout:fixed;
+}
+td{
+	/*width:23%*/
+	text-align:center;
+}

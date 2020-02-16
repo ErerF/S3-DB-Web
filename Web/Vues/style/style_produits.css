@@ -1,0 +1,50 @@
+.contenu{
+	overflow:hidden;
+}
+.produits{
+	width:80%;
+	margin-left: 10%;
+}
+table{
+	width:98%;
+	text-align: center;
+}
+
+/*th{
+	width:40%;
+}*/
+.gateau{
+	/*margin-left: 10%;
+	/*float:left;*/
+	overflow:auto;
+	width:fixed;
+}
+.boisson{
+	/*margin-right: 10%;
+	/*float:right;*/
+	overflow:auto;
+	width:fixed;
+}
+.menuP{
+	overflow:auto;
+}
+button {/* background:url(rss-feed-img.png) repeat 0px 0px; */
+	background-color:#A0522D;
+	color: #FFFFFF;
+	border:0;
+	padding:0;
+	margin-right: 10%;
+	float:right;
+	width: 123px; 
+	height: 35px; 
+	display: block; 
+	text-align:center;
+	font-weight: bold;
+    font-size: 16px;
+	 /*line-height:35px;*/
+	 
+	-moz-border-radius: 15px;   
+	-webkit-border-radius: 15px;  
+	border-radius:15px;  
+}   
+button:hover { background-color:#CD853F;}

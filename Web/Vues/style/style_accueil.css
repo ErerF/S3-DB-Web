@@ -1,0 +1,91 @@
+body {    
+	overflow:auto;
+	
+	background: url(http://127.0.0.1/ProjetS3-site/img/background.jpg) no-repeat;
+    /*background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;*/
+    z-index: -1;
+}
+.contenu{
+    width:80%;
+    margin-left: 10%;
+	margin-top:5px;
+	margin-bottom:5px;
+    padding-left: 5px;
+	padding-right: 5px;
+    background-color: rgba(255,255,255,0.75);
+	z-index:1;
+	
+	position: relative;   /*重要！保证footer是相对于wapper位置绝对*/  
+    height: auto;          /* 保证页面能撑开浏览器高度时显示正常*/  
+    min-height: 100% ;
+}
+/*.header{
+	position:relative;
+	top:15px;
+}*/
+.logo{	
+	position:relative;
+	top:15px;
+	left:3%;
+	
+}
+.title{
+	position:absolute;
+	top:-7px;
+	left:23%;
+	text-align:center;
+	font-size:xx-large;
+	font-weight:bold;
+}
+a{
+	font-size: 18px;
+	font-weight: bold;
+	margin-left:15px;
+}
+/*a:link{color:#D2691E;text-decoration:none;}*/
+a:link{color:#A0522D;;text-decoration:none;}
+a:visited{color:#A0522D;text-decoration:none;}
+a:hover{color:#800000;text-decoration:underline;} 
+a.menuActive {font-size: 28px;color:#800000;text-decoration:underline;} 
+.menu{
+	position:absolute;
+	top:50px;
+	right:15%;
+	text-align:right;
+	vertical-align:middle;
+}
+.introduction{
+	width:80%;
+	margin-left: 10%;
+	text-indent:2em;
+	
+	padding-bottom:100px;
+	
+}
+
+.footer{
+	text-align:center;
+	font-style:italic;
+	color:#787878;
+	/*height:100px;*/
+   /* position:absolute;*/
+   bottom:0px;
+	
+	
+	/*height:100px;*/
+	margin-top:-100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
